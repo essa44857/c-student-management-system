@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include "student.h"
 
-// 🎨 Header Menu Functions
+//  Header Menu Functions
 void print_menu() {
     printf("\n========================================\n");
-    printf("   🎓 STUDENT MANAGEMENT SYSTEM 🎓   \n");
+    printf("   STUDENT MANAGEMENT SYSTEM    \n");
     printf("========================================\n");
-    printf("1. ➕ Add New Student\n");
-    printf("2. 📋 Display All Students\n");
-    printf("3. 🔍 Search Student\n");
-    printf("4. ⚡ Sort Students by ID\n");
-    printf("5. 🛠️  Modify Student Record\n");
-    printf("6. 🗑️  Delete Student Record\n");
-    printf("0. 🚪 Exit Program\n");
+    printf("1. Add New Student\n");
+    printf("2. Display All Students\n");
+    printf("3. Search Student\n");
+    printf("4. Sort Students by ID\n");
+    printf("5. Modify Student Record\n");
+    printf("6. Exit Student Record\n");
+    printf("0. Exit Program\n");
     printf("========================================\n");
     printf("Choose an option: ");
 }
@@ -28,14 +28,14 @@ void print_search_menu() {
 
 int main() {
     StudentDatabase db;
-    init_db(&db, 5); //  1. Initialize memory with capacity of 5
+    init_db(&db, 5); 
 
     int choice, search_choice;
     Student s;
     int id, index;
     float salary;
 
-    // 2. Interactive Loop
+    // loop
     do {
         print_menu();
         if (scanf("%d", &choice) != 1) {
