@@ -1,4 +1,4 @@
-# 🎓 C Student Management System (CRP)
+#  C Student Management System (CRP)
 
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Compiler: GCC](https://img.shields.io/badge/Compiler-GCC-green.svg)](https://gcc.gnu.org/)
@@ -8,17 +8,17 @@
 
 ---
 
-## 🛠️ المفاهيم البرمجية المُطبقة (Core Concepts)
+##  المفاهيم البرمجية المُطبقة (Core Concepts)
 
-* 🏗️ **السجلات (`struct`)**: تمثيل بيانات الطالب وقاعدة البيانات.
-* 📈 **المصفوفات الديناميكية (`Dynamic Arrays`)**: إدارة الذاكرة بمرونة باستعمال `malloc` و `realloc` و `free`.
-* 📍 **المؤشرات (`Pointers`)**: التعديل المباشر على البيانات في الذاكرة.
-* 🔗 **البرمجة النمطية (`Modular Programming`)**: تقسيم المشروع إلى `student.h` و `student.c` و `main.c`.
-* 🔄 **التحكم والترتيب (`Control Flow & Algorithms`)**: قوائم تفاعلية (`do-while` / `switch`) مع خوارزميات الترتيب والبحث.
+ **السجلات (`struct`)**: تمثيل بيانات الطالب وقاعدة البيانات.
+*  **المصفوفات الديناميكية (`Dynamic Arrays`)**: إدارة الذاكرة بمرونة باستعمال `malloc` و `realloc` و `free`.
+*  **المؤشرات (`Pointers`)**: التعديل المباشر على البيانات في الذاكرة.
+*  **البرمجة النمطية (`Modular Programming`)**: تقسيم المشروع إلى `student.h` و `student.c` و `main.c`.
+*  **التحكم والترتيب (`Control Flow & Algorithms`)**: قوائم تفاعلية (`do-while` / `switch`) مع خوارزميات الترتيب والبحث.
 
 ---
 
-## 🚀 طريقة التجميع والتشغيل (How to Run)
+##  طريقة التجميع والتشغيل (How to Run)
 
 ```bash
 # 1. تجميع الكود
